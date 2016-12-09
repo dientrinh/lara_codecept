@@ -8,5 +8,4 @@ class_name: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost:8080/job/lara/ws/public
         - \Helper\Acceptance
