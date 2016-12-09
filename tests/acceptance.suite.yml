@@ -8,5 +8,5 @@ class_name: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost:8040/lacodecept/public
+            url: http://localhost:8080/lara/public
         - \Helper\Acceptance
