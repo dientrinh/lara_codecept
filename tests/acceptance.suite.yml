@@ -7,6 +7,4 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
-            url: http://localhost:8040/lacodecept/public
         - \Helper\Acceptance
