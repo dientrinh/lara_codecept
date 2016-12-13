@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <phpdox xmlns="http://xml.phpdox.net/config">
- <project name="Laravel Project" source="../" workdir="phpdox">
+ <project name="Money" source="../src" workdir="phpdox">
   <collector publiconly="false">
    <include mask="*.php" />
    <exclude mask="*autoload.php" />
-   <exclude mask="**vendor**" />
   </collector>
 
   <generator output=".">
