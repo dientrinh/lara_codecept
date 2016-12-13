@@ -18,23 +18,20 @@
         <property name="prepare.done" value="true"/>
     </target>
 
-    <target name="composer" depends="composer-laravel,composer-update" description="Install or update dependencies" />
+ 
 
-    <!--// Check to see it the vendor folder already exist, if so, then no reason to run //-->
-    <target name="composer.check">
-       <condition property="composer.lock.exist.in.gitignore">
-           <resourcecontains resource="${basedir}/.gitignore" substring="composer.lock" />
-       </condition>
+    <target name="lint">
+        <apply executable="php" failonerror="true" taskname="lint">
+            <arg value="-l"/>
+
+            <fileset dir="${basedir}">
+                <include name="**/*.php"/>
+                <exclude name="vendor/"/>
+                <modified/>
+            </fileset>
+
+        </apply>
     </target>
-
-    <target name="composer-install" depends="composer.check" unless="composer.lock.exist.in.gitignore" description="Installing dependencies">
-       <echo>Installing dependencies</echo>
-       <exec executable="composer" failonerror="true">
-           <arg value="install" />
-       </exec>
-    </target>
-
-   
 
     <target name="phploc" description="Measure project size using PHPLOC">
         <exec executable="phploc" taskname="phploc">
