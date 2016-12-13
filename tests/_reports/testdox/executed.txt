@@ -1,6 +1,3 @@
-Example
- [x] Basic example
-
 Target
  [x] Demo
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1481517072">
-  <project timestamp="1481517072">
+<coverage generated="1481618182">
+  <project timestamp="1481618182">
     <package name="App\Console\Commands">
       <file name="C:\xampp\htdocs\lacodecept\app/Console/Commands/Inspire.php">
         <class name="Inspire" namespace="App\Console\Commands">
@@ -17,8 +17,8 @@
         <class name="Kernel" namespace="App\Console">
           <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
         </class>
-        <line num="25" type="method" name="schedule" crap="1" count="2"/>
-        <line num="29" type="stmt" count="2"/>
+        <line num="25" type="method" name="schedule" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
         <metrics loc="30" ncloc="13" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </file>
     </package>
@@ -144,47 +144,47 @@
         <class name="AppServiceProvider" namespace="App\Providers">
           <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
         </class>
-        <line num="14" type="method" name="boot" crap="1" count="2"/>
-        <line num="17" type="stmt" count="2"/>
-        <line num="24" type="method" name="register" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
+        <line num="14" type="method" name="boot" crap="1" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="24" type="method" name="register" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
         <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </file>
       <file name="C:\xampp\htdocs\lacodecept\app/Providers/AuthServiceProvider.php">
         <class name="AuthServiceProvider" namespace="App\Providers">
           <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="25" type="method" name="boot" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <line num="30" type="stmt" count="2"/>
+        <line num="25" type="method" name="boot" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
         <metrics loc="31" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="C:\xampp\htdocs\lacodecept\app/Providers/EventServiceProvider.php">
         <class name="EventServiceProvider" namespace="App\Providers">
           <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="27" type="method" name="boot" crap="1" count="2"/>
-        <line num="29" type="stmt" count="2"/>
-        <line num="32" type="stmt" count="2"/>
+        <line num="27" type="method" name="boot" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
         <metrics loc="33" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="C:\xampp\htdocs\lacodecept\app/Providers/RouteServiceProvider.php">
         <class name="RouteServiceProvider" namespace="App\Providers">
           <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
         </class>
-        <line num="25" type="method" name="boot" crap="1" count="2"/>
-        <line num="29" type="stmt" count="2"/>
-        <line num="30" type="stmt" count="2"/>
-        <line num="38" type="method" name="map" crap="1" count="2"/>
-        <line num="40" type="stmt" count="2"/>
-        <line num="43" type="stmt" count="2"/>
-        <line num="53" type="method" name="mapWebRoutes" crap="1" count="2"/>
-        <line num="55" type="stmt" count="2"/>
-        <line num="56" type="stmt" count="2"/>
-        <line num="57" type="method" name="anonymous function" crap="1" count="2"/>
-        <line num="58" type="stmt" count="2"/>
-        <line num="59" type="stmt" count="2"/>
-        <line num="60" type="stmt" count="2"/>
+        <line num="25" type="method" name="boot" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="38" type="method" name="map" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="53" type="method" name="mapWebRoutes" crap="1" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="method" name="anonymous function" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="1"/>
+        <line num="60" type="stmt" count="1"/>
         <metrics loc="61" ncloc="30" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="13" coveredelements="13"/>
       </file>
     </package>
