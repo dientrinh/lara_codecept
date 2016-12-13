@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="2" assertions="3" failures="0" errors="0" time="1.038605">
+    <testsuite name="ExampleTest" file="C:\xampp\htdocs\lacodecept\tests\ExampleTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.679249">
+      <testcase name="testBasicExample" class="ExampleTest" file="C:\xampp\htdocs\lacodecept\tests\ExampleTest.php" line="14" assertions="2" time="0.679249"/>
+    </testsuite>
+    <testsuite name="TargetTest" file="C:\xampp\htdocs\lacodecept\tests\unit\TargetTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.359356">
+      <testcase name="testDemo" class="TargetTest" file="C:\xampp\htdocs\lacodecept\tests\unit\TargetTest.php" line="10" assertions="1" time="0.359356"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
