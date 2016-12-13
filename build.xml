@@ -34,32 +34,7 @@
        </exec>
     </target>
 
-    <target name="composer-update" depends="composer.check" if="composer.lock.exist.in.gitignore" description="Updating dependencies">
-       <echo>Updating dependencies</echo>
-       <exec executable="composer" failonerror="true">
-           <arg value="update" />
-       </exec>
-    </target>
-
-    <target name="composer-laravel" depends="composer.check" unless="composer.lock.exist.in.gitignore" description="Installing Laravel dependencies">
-       <echo>Installing dependencies</echo>
-       <exec executable="composer" failonerror="true">
-           <arg value="test" />
-       </exec>
-    </target>
-
-    <target name="lint">
-        <apply executable="php" failonerror="true" taskname="lint">
-            <arg value="-l"/>
-
-            <fileset dir="${basedir}">
-                <include name="**/*.php"/>
-                <exclude name="vendor/"/>
-                <modified/>
-            </fileset>
-
-        </apply>
-    </target>
+   
 
     <target name="phploc" description="Measure project size using PHPLOC">
         <exec executable="phploc" taskname="phploc">
